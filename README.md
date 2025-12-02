@@ -141,11 +141,10 @@ Frame transmitido a 1 símbolo por muestra (antes del filtro RRC):
      - Símbolos en cada sección (PRE / TRN / HDR / PAY).
      - Número total de muestras.
 
-Lugar sugerido para ejemplo de imagen transmitida:
 
-    ![Imagen original a transmitir](original.png)
-    ![Constelacion de la imagen](imagenconstelacion.png)
-    ![Constelacion del preambulo](preambuloconstelacion.png)
+    ![Imagen original a transmitir](docs/original.png)
+    ![Constelacion de la imagen](docs/imagenconstelacion.png)
+    ![Constelacion del preambulo](docs/preambuloconstelacion.png)
 
 ---
 
