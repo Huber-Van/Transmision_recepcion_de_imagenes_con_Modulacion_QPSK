@@ -136,14 +136,21 @@ Frame transmitido a 1 símbolo por muestra (antes del filtro RRC):
      - Símbolos en cada sección (PRE / TRN / HDR / PAY).
      - Número total de muestras.
 
-**Figura 1. Imagen original a transmitir**
-    ![Imagen original a transmitir](docs/original.png)
+<p align="center">
+  <img src="docs/original.png" alt="Imagen original a transmitir" width="520"><br>
+  <sub><b>Figura 1.</b> Imagen original utilizada como entrada para el enlace QPSK.</sub>
+</p>
 
-**Figura 2. Constelación de la imagen**
-    ![Constelacion de la imagen](docs/imagenconstelacion.png)
+<p align="center">
+  <img src="docs/imagenconstelacion.png" alt="Constelación de la imagen" width="520"><br>
+  <sub><b>Figura 2.</b> Constelación QPSK asociada al payload de la imagen (símbolos de datos).</sub>
+</p>
 
-**Figura 3. Constelación del preámbulo**
-    ![Constelacion del preambulo](docs/preambuloconstelacion.png)
+<p align="center">
+  <img src="docs/preambuloconstelacion.png" alt="Constelación del preámbulo" width="520"><br>
+  <sub><b>Figura 3.</b> Constelación del preámbulo/segmentos piloto utilizada para la sincronización del enlace.</sub>
+</p>
+
 
 ---
 
@@ -229,22 +236,21 @@ Frame transmitido a 1 símbolo por muestra (antes del filtro RRC):
      - `H × W × 3` si C = 3 (RGB).
    - Se muestra la imagen reconstruida.
 
-Lugar sugerido para ejemplo de imagen recibida y constelaciones:
-
 <p align="center">
-  <img src="docs/imagenrecuperada.png" alt="Imagen recibida" width="420"><br>
+  <img src="docs/imagenrecuperada.png" alt="Imagen recibida" width="520"><br>
   <sub><b>Figura 1.</b> Imagen reconstruida en el receptor QPSK.</sub>
 </p>
 
 <p align="center">
-  <img src="docs/imgconst.png" alt="Constelación BPSK" width="420"><br>
+  <img src="docs/imgconst.png" alt="Constelación BPSK" width="520"><br>
   <sub><b>Figura 2.</b> Constelación BPSK asociada al preámbulo de sincronización.</sub>
 </p>
 
 <p align="center">
-  <img src="docs/preambuloconst.png" alt="Constelación QPSK" width="420"><br>
+  <img src="docs/preambuloconst.png" alt="Constelación QPSK" width="520"><br>
   <sub><b>Figura 3.</b> Constelación QPSK del enlace (training + datos de imagen).</sub>
 </p>
+
 
 ---
 
