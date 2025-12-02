@@ -143,7 +143,9 @@ Frame transmitido a 1 símbolo por muestra (antes del filtro RRC):
 
 Lugar sugerido para ejemplo de imagen transmitida:
 
-    ![Imagen original a transmitir](docs/tx_image_example.png)
+    ![Imagen original a transmitir](original.png)
+    ![Constelacion de la imagen](imagenconstelacion.png)
+    ![Constelacion del preambulo](preambuloconstelacion.png)
 
 ---
 
