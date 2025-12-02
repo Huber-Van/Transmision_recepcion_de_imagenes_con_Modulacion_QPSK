@@ -1,5 +1,4 @@
 # Transmision_recepcion_de_imagenes_con_Modulacion_QPSK
-# Transmisión y recepción de imágenes con QPSK (MATLAB)
 
 Este proyecto implementa un enlace digital completo de **transmisión y recepción de imágenes** usando:
 
