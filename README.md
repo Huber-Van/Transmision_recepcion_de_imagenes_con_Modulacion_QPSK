@@ -242,12 +242,12 @@ Frame transmitido a 1 símbolo por muestra (antes del filtro RRC):
 </p>
 
 <p align="center">
-  <img src="docs/imgconst.png" alt="Constelación BPSK" width="520"><br>
+  <img src="docs/preambuloconst.png" alt="Constelación BPSK" width="520"><br>
   <sub><b>Figura 2.</b> Constelación BPSK asociada al preámbulo de sincronización.</sub>
 </p>
 
 <p align="center">
-  <img src="docs/preambuloconst.png" alt="Constelación QPSK" width="520"><br>
+  <img src="docs/imgconst.png" alt="Constelación QPSK" width="520"><br>
   <sub><b>Figura 3.</b> Constelación QPSK del enlace (training + datos de imagen).</sub>
 </p>
 
