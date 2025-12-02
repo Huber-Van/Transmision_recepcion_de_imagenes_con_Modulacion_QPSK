@@ -28,11 +28,6 @@ Cadena completa TX/RX (banda base compleja):
           → Detección Barker → Estimación CFO / fase
           → Training QPSK → Búsqueda HEADER (rotación / slip + CRC)
           → PLL QPSK → Descrambler → Reconstrucción de imagen
-
-Lugar sugerido para diagrama de bloques:
-
-    ![Diagrama de bloques TX/RX](docs/tx_rx_diagram.png)
-
 ---
 
 ## 2. Características principales
@@ -236,8 +231,20 @@ Frame transmitido a 1 símbolo por muestra (antes del filtro RRC):
 
 Lugar sugerido para ejemplo de imagen recibida y constelaciones:
 
-    ![Imagen recibida](docs/rx_image_example.png)
-    ![Constelaciones QPSK](docs/qpsk_constellations.png)
+<p align="center">
+  <img src="docs/imagenrecuperada.png" alt="Imagen recibida" width="420"><br>
+  <sub><b>Figura 1.</b> Imagen reconstruida en el receptor QPSK.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imgconst.png" alt="Constelación BPSK" width="420"><br>
+  <sub><b>Figura 2.</b> Constelación BPSK asociada al preámbulo de sincronización.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/preambuloconst.png" alt="Constelación QPSK" width="420"><br>
+  <sub><b>Figura 3.</b> Constelación QPSK del enlace (training + datos de imagen).</sub>
+</p>
 
 ---
 
